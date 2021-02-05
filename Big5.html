@@ -1,0 +1,155 @@
+{% extends "layout.html" }
+
+
+{% block styles %}
+<link href="/static/css/Big5.css" rel="stylesheet">
+{% endblock %}
+
+{% block content %}
+<div class="jumbotron">
+    <h1 class="display-4">Welcome to Thoughts</h1>
+    <p class="lead">This is a series of survey</p>
+    <hr class="my-4">
+    <p>Who are you feeling?</p>
+    <p>Please write a number next to each statement to indicate the extent to which you agree or disagree with that statement. You should rate the extent to which the pair of traits applies to you, even if one characteristic applies more strongly than the other. </p>
+    <form>
+            
+        <div class="form-group">
+          <label for="exampleFormControlSelect1"> I see myself as extraverted, enthusiastic.</label>
+          <select class="form-control" id="exampleFormControlSelect1">
+            <option>Disagree strongly=1</option>
+            <option>Disagree moderately=2</option>
+            <option>Disagree a little=3</option>
+            <option>Neither agree nor disagree=4</option>
+            <option>Agree a little=5</option>
+            <option>Agree moderately=6</option>
+            <option>Agree strongly=7</option>     
+          </select>
+        </div>
+
+        <div class="form-group">
+            <label for="exampleFormControlSelect1"> I see myself as critical, quarrelsome</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>Disagree strongly=1</option>
+              <option>Disagree moderately=2</option>
+              <option>Disagree a little=3</option>
+              <option>Neither agree nor disagree=4</option>
+              <option>Agree a little=5</option>
+              <option>Agree moderately=6</option>
+              <option>Agree strongly=7</option>     
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="exampleFormControlSelect1"> I see myself as dependable, self-disciplined.</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>Disagree strongly=1</option>
+              <option>Disagree moderately=2</option>
+              <option>Disagree a little=3</option>
+              <option>Neither agree nor disagree=4</option>
+              <option>Agree a little=5</option>
+              <option>Agree moderately=6</option>
+              <option>Agree strongly=7</option>     
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="exampleFormControlSelect1"> I see myself as anxious, easily upset.</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>Disagree strongly=1</option>
+              <option>Disagree moderately=2</option>
+              <option>Disagree a little=3</option>
+              <option>Neither agree nor disagree=4</option>
+              <option>Agree a little=5</option>
+              <option>Agree moderately=6</option>
+              <option>Agree strongly=7</option>     
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="exampleFormControlSelect1"> I see myself as open to new experiences, complex.</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>Disagree strongly=1</option>
+              <option>Disagree moderately=2</option>
+              <option>Disagree a little=3</option>
+              <option>Neither agree nor disagree=4</option>
+              <option>Agree a little=5</option>
+              <option>Agree moderately=6</option>
+              <option>Agree strongly=7</option>     
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="exampleFormControlSelect1"> I see myself as reserved, quiet.</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>Disagree strongly=1</option>
+              <option>Disagree moderately=2</option>
+              <option>Disagree a little=3</option>
+              <option>Neither agree nor disagree=4</option>
+              <option>Agree a little=5</option>
+              <option>Agree moderately=6</option>
+              <option>Agree strongly=7</option>     
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="exampleFormControlSelect1"> I see myself as sympathetic, warm.</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>Disagree strongly=1</option>
+              <option>Disagree moderately=2</option>
+              <option>Disagree a little=3</option>
+              <option>Neither agree nor disagree=4</option>
+              <option>Agree a little=5</option>
+              <option>Agree moderately=6</option>
+              <option>Agree strongly=7</option>     
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="exampleFormControlSelect1"> I see myself as disorganized, careless.</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>Disagree strongly=1</option>
+              <option>Disagree moderately=2</option>
+              <option>Disagree a little=3</option>
+              <option>Neither agree nor disagree=4</option>
+              <option>Agree a little=5</option>
+              <option>Agree moderately=6</option>
+              <option>Agree strongly=7</option>     
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="exampleFormControlSelect1"> I see myself as calm, emotionally stable.</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>Disagree strongly=1</option>
+              <option>Disagree moderately=2</option>
+              <option>Disagree a little=3</option>
+              <option>Neither agree nor disagree=4</option>
+              <option>Agree a little=5</option>
+              <option>Agree moderately=6</option>
+              <option>Agree strongly=7</option>     
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="exampleFormControlSelect1"> I see myself as conventional, uncreative.</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>Disagree strongly=1</option>
+              <option>Disagree moderately=2</option>
+              <option>Disagree a little=3</option>
+              <option>Neither agree nor disagree=4</option>
+              <option>Agree a little=5</option>
+              <option>Agree moderately=6</option>
+              <option>Agree strongly=7</option>     
+            </select>
+          </div>
+        
+      </form>
+
+
+    <p class="lead">
+      <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+    </p>
+  </div>
+
+{% endblock %}

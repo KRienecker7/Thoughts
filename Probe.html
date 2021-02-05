@@ -1,0 +1,75 @@
+{% extends "layout.html" }
+
+
+{% block styles %}
+<link href="/static/css/Probe.css" rel="stylesheet">
+{% endblock %}
+
+{% block content %}
+<div class="jumbotron">
+    <h1 class="display-4">Welcome to Thoughts</h1>
+    <p class="lead">This is a series of survey</p>
+    <hr class="my-4">
+    <p>Who are your thoughts?</p>
+    <form>
+            
+        <div class="form-group">
+          <label for="exampleFormControlSelect1"> Politcally, I identify as:</label>
+          <select class="form-control" id="exampleFormControlSelect1">
+            <option>left</option>
+            <option>left/moderate</option>
+            <option>moderate</option>
+            <option>right/moderate</option>
+            <option>right</option>
+  
+          </select>
+        </div>
+
+        <div class="form-group">
+            <label for="exampleFormControlSelect1"> Do you drive a gas car?</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>Yes</option>
+              <option>No</option>    
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="exampleFormControlSelect1"> Do greenhouse gases cause global warming?</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>Yes</option>
+              <option>No</option>    
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="exampleFormControlSelect1"> Does the miles per gallon your car get concern you?</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>Yes</option>
+              <option>No</option>    
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="exampleFormControlSelect1"> Do gas prices worry you?</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>Yes</option>
+              <option>No</option>    
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="exampleFormControlSelect1"> Would you drive an electric car if more affordable?</label>
+            <select class="form-control" id="exampleFormControlSelect1">
+              <option>Yes</option>
+              <option>No</option>    
+            </select>
+          </div>
+      </form>
+
+
+    <p class="lead">
+      <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+    </p>
+  </div>
+
+{% endblock %}

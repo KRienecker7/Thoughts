@@ -1,0 +1,13 @@
+h1 {
+    color: red;
+    font-family: 'Architects Daughter', cursive;
+}
+
+
+.form-group {
+    font-size: medium;
+    font-weight: bold;
+    color: black;
+    background-color: antiquewhite;
+
+  }

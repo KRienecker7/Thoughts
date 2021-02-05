@@ -1,0 +1,109 @@
+{% extends "layout.html" }
+
+
+{% block styles %}
+<link href="/static/css/Demo.css" rel="stylesheet">
+{% endblock %}
+
+{% block content %}
+<div class="jumbotron">
+    <h1 class="display-4">Welcome to Thoughts</h1>
+    <p class="lead">This is a series of survey</p>
+    <hr class="my-4">
+    <p>Who are you?</p>
+    <form>
+        
+        <div class="form-group">
+            <label for="exampleFormControlInput1">Name</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="What is your name?">
+          </div>
+    
+        <div class="form-group">
+          <label for="exampleFormControlSelect1">Age</label>
+          <select class="form-control" id="exampleFormControlSelect1">
+            <option>Under 30</option>
+            <option>Under 40</option>
+            <option>Under 50</option>
+            <option>Under 60</option>
+            <option>Under 70</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="exampleFormControlSelect2">Gender ID</label>
+          <select multiple class="form-control" id="exampleFormControlSelect2">
+            <option>Male</option>
+            <option>Female</option>
+            <option>Non binary</option>
+            <option>Other</option>
+          </select>
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlSelect2">Citizenship</label>
+            <select multiple class="form-control" id="exampleFormControlSelect2">
+              <option>USA</option>
+              <option>Mexico</option>
+              <option>Canada</option>
+              <option>Other</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="exampleFormControlSelect2">Citizenship</label>
+            <select multiple class="form-control" id="exampleFormControlSelect2">
+              <option>USA</option>
+              <option>Mexico</option>
+              <option>Canada</option>
+              <option>Other</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="exampleFormControlSelect2">Income</label>
+            <select multiple class="form-control" id="exampleFormControlSelect2">
+              <option>under 50k</option>
+              <option>under 75k</option>
+              <option>under 100k</option>
+              <option>over 100k</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlInput1">Zipcode</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Where are you from?">
+          </div>
+          <div class="form-group">
+              <label for="exampleFormControlSelect2">Car type</label>
+              <select multiple class="form-control" id="exampleFormControlSelect2">
+                <option>2 door sport</option>
+                <option>4 door sedan</option>
+                <option>2 door suv</option>
+                <option>4 door suv</option>
+                <option>Minivan</option>
+                <option>Convertible</option>
+              </select>
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlSelect2">Engine type</label>
+            <select multiple class="form-control" id="exampleFormControlSelect2">
+              <option>Gas</option>
+              <option>Electric</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="exampleFormControlSelect2">Purchased car in last five years?</label>
+            <select multiple class="form-control" id="exampleFormControlSelect2">
+              <option>Yes</option>
+              <option>No</option>
+            </select>
+          </div>        
+        <div class="form-group">
+          <label for="exampleFormControlTextarea1">Anything we miss?</label>
+          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+        </div>
+      </form>
+
+
+    <p class="lead">
+      <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+    </p>
+  </div>
+
+{% endblock %}

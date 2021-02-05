@@ -1,0 +1,15 @@
+.card {
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: top;
+  }
+
+  .form-group {
+    font-size: medium;
+    font-weight: bold;
+    color: black;
+    background-color: antiquewhite;
+
+  }
+
+  
